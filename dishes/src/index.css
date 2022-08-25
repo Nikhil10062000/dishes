@@ -1,0 +1,260 @@
+.dishes {
+  height: 4rem;
+  display: flex;
+  flex-direction: row;
+}
+.arrow {
+  position: relative;
+  top: 1.3rem;
+  width: 30px;
+}
+.block {
+  display: block;
+  height: 100px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+.black {
+  background-color: black;
+  height: 5rem;
+}
+
+.date {
+  position: relative;
+  margin: auto;
+  border-radius: 12px;
+  width: 22rem;
+  height: 6rem;
+  bottom: 60px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+}
+.local {
+  width: 50%;
+  text-align: center;
+}
+.local-t {
+  width: 50%;
+  text-align: center;
+}
+
+.popular {
+  position: relative;
+  top: 5rem;
+  font-size: large;
+}
+.popular > h4 {
+  margin-left: 1rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  position: relative;
+  top: 4rem;
+  margin-left: 1rem;
+  text-align: center;
+  height: 22px;
+  width: 75px;
+  border-radius: 8px;
+}
+
+.button:hover {
+  border-color: orangered;
+  color: orangered;
+}
+
+.img {
+  display: flex;
+  direction: row;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+.image {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border-style: 1px solid;
+  margin-left: 3rem;
+}
+
+.recomm {
+  box-sizing: border-box;
+  font-size: large;
+}
+.recomm > h4 {
+  display: inline-block;
+  width: 70%;
+}
+.recomm > button {
+  background-color: black;
+  color: aliceblue;
+  height: 20px;
+  width: 70px;
+  border-radius: 10px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.picture > img {
+  height: 100px;
+  width: 160px;
+  margin-left: 30px;
+  border-radius: 6px;
+}
+
+.contain {
+  width: 50%;
+  position: relative;
+  bottom: 20px;
+  height: 1px;
+}
+.picture {
+  width: 50%;
+}
+
+.list {
+  box-sizing: border-box;
+  border: 1px thick black;
+  height: 250px;
+  overflow-y: auto;
+  margin-top: 5px;
+  position: relative;
+  top: 6rem;
+}
+
+.contain > p {
+  font-size: large;
+}
+
+.flex-equi {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: small;
+  position: relative;
+  bottom: 45px;
+}
+
+.equipments {
+  font-size: smaller;
+}
+
+.ingre {
+  font-size: smaller;
+  margin-left: 30px;
+}
+.ingre > span {
+  position: relative;
+  bottom: 20px;
+}
+
+.span {
+  background-color: chartreuse;
+  color: black;
+  width: 30px;
+  height: 5px;
+}
+.des {
+  font-size: smaller;
+}
+
+.yellow {
+  position: relative;
+  left: 75px;
+  bottom: 14px;
+  height: 20px;
+  width: 70px;
+  background-color: whitesmoke;
+  color: orange;
+  border-color: orange;
+}
+.counter {
+  background-color: rgba(0, 0, 0, 0.532);
+  color: #f1f1f1;
+  position: fixed;
+  width: 15rem;
+  height: 1.3rem;
+  text-align: center;
+  bottom: 60px;
+  left: 75px;
+}
+
+/* comp2 style */
+.icon {
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
+.recipie {
+  box-sizing: border-box;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+.span-t{
+    font-size: x-small;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    height: 10px;
+    background-color: chartreuse;
+    color: black;
+}
+
+.recipie > div{
+    width: 50%;
+}
+
+.vege > img{
+    position: relative;
+    height: 250px;
+    width:200px;
+}
+
+.ingridents{
+    box-sizing: border-box;
+    margin-left: 20px;
+    height: 100px;
+    bottom: 40px;
+}
+.ingridents > p{
+    position: relative;
+    bottom:50px
+    
+}
+table{
+    width: 100%;
+    
+}
+th{
+    padding-right:200px ;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    
+}
+.logo{
+    height: 200px;
+    width: 200px;
+}
+.apply > p{
+    margin-left: 30px;
+    margin-bottom: 40px;
+     
+}
